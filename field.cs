@@ -7,7 +7,9 @@ namespace Callendar
 	/// </summary>
 	public class field
 	{
-		int _color;
+		int _foregrnd;
+		int _backgrnd;
+		int _value;
 		
 		public field()
 		{
