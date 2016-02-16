@@ -7,12 +7,25 @@ namespace Callendar
 	/// </summary>
 	public class field
 	{
-		int _foregrnd;
+		int foregrnd;
 		int _backgrnd;
 		int _value;
 		
 		public field()
 		{
 		}
-	}
+
+        public int Foregrnd
+        {
+            get
+            {
+                return foregrnd;
+            }
+
+            set
+            {
+                foregrnd = value;
+            }
+        }
+    }
 }
