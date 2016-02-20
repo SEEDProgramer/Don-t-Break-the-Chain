@@ -8,7 +8,7 @@ namespace Callendar
 	public class field
 	{
 		int foregrnd;
-		int _backgrnd;
+		int backgrnd;
 		int _value;
 		
 		public field()
@@ -25,6 +25,19 @@ namespace Callendar
             set
             {
                 foregrnd = value;
+            }
+        }
+
+        public int Backgrnd
+        {
+            get
+            {
+                return backgrnd;
+            }
+
+            set
+            {
+                backgrnd = value;
             }
         }
     }
